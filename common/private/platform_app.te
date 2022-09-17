@@ -12,3 +12,6 @@ hal_client_domain(platform_app, hal_lineage_powershare)
 
 # Allow externalstorage access
 allow platform_app mnt_pass_through_file:dir { create_dir_perms mounton };
+
+# Allow bypassing the FUSE layer
+r_dir_file(platform_app, mnt_pass_through_file)
