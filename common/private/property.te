@@ -3,3 +3,6 @@ system_internal_prop(recovery_update_prop)
 
 # Wi-Fi Display
 system_public_prop(media_wfd_prop);
+
+# Tethering
+system_internal_prop(device_config_tethering_prop)
