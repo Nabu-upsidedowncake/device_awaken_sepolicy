@@ -37,6 +37,10 @@ ifeq ($(PRODUCT_IS_ATV), true)
 include device/awaken/sepolicy/atv/sepolicy.mk
 endif
 
+# Flipendo
+BOARD_SEPOLICY_DIRS += \
+    hardware/google/pixel-sepolicy/flipendo
+
 # google_battery service
 BOARD_SEPOLICY_DIRS += \
     hardware/google/pixel-sepolicy/googlebattery
