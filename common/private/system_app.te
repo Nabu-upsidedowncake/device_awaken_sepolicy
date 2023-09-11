@@ -11,3 +11,6 @@ set_prop(system_app, recovery_update_prop)
 
 # Allow Settings to set wfd resolution prop
 set_prop(system_app, media_wfd_prop)
+
+# Allow system apps to read qemu props
+get_prop(system_app, qemu_hw_prop)
