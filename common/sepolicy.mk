@@ -40,7 +40,3 @@ endif
 # google_battery service
 BOARD_SEPOLICY_DIRS += \
     hardware/google/pixel-sepolicy/googlebattery
-
-# turbo_adapter
-BOARD_SEPOLICY_DIRS += \
-    hardware/google/pixel-sepolicy/turbo_adapter
